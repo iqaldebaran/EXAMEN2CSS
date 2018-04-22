@@ -1,0 +1,30 @@
+body{
+    font-family: "Dancing Script", serif;
+
+}
+/*--Propiedades de la Cabecera--*/
+header{
+    background-color: #5b7989;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*--Propiedades del Título principal--*/
+#titulo{
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px #02010a;
+}
+
+li{
+    display: inline;
+    border-right: 1px solid #02010a;
+}
+nav{
+    text-align: right;
+}
+
+h1{
+    font-family: "Dancing Script";
+
+}
