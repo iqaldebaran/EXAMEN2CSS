@@ -2,13 +2,13 @@ body{
     font-family: 'Dancing Script', cursive;
     background-color: #02010a;
 
-
 }
 /*--Propiedades de la Cabecera--*/
 header{
     background-color: #5b7989;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    padding: 1%;
 }
 
 /*--Propiedades del Título principal--*/
@@ -21,8 +21,27 @@ header{
 li{
     display: inline;
     border-right: 1px solid #02010a;
+}    
+
+a {
+    text-decoration: none;
 }
+
+
 nav{
     text-align: right;
 }
 
+img{
+    box-shadow: 2px 2px #02010a;
+    padding: 2%;
+    background-color: #82c3a6;
+    
+
+}
+#imgCentral{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
