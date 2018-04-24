@@ -166,9 +166,30 @@ footer > div{
 #paisaje4{
     filter: grayscale(100%);
 }
-#paisaje5{
-    
-}
+
 #paisaje6{
+    filter: grayscale(100%);
+}
+
+/*--IMAGENES RETRATOS--*/
+
+.imgRetratos{
+    width: 33%;
+    margin: 5% auto;
+}
+#retrato1{
+    filter: blur(10px);
+}
+#retrato2{
+    filter: grayscale(100%);
+}
+#retrato3{
+    filter: sepia(90%);
+}
+#retrato4{
+    filter: grayscale(100%);
+}
+
+#retrato6{
     filter: grayscale(100%);
 }
