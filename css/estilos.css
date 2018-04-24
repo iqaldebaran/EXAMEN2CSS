@@ -37,14 +37,17 @@ a {
     color: white;
 }
 
-
 nav{
     text-align: right;
     display: inline;
 }
 
+/*--Propiedades de las Imágenes--*/
 img{
     box-shadow: 2px 2px #02010a;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     
 }
@@ -56,7 +59,6 @@ img{
     max-width: 900px;
 }
 
-
 #imgSecundaria1{
     flex-grow: 1;
     margin: 1%;
@@ -65,7 +67,6 @@ img{
     border: 2px solid #82c3a6;
     animation: miAnimacion1 1s;
     transform: rotate(10deg);
-
 }
 
 #imgSecundaria2{
@@ -85,7 +86,6 @@ img{
 #section2{
     background-color: #d5c75f;
     border: 1px;
-    align-content: center;
 }
 
 .flex-c{
@@ -94,6 +94,8 @@ img{
     
 }
 
+/*--PIE DE PAGINA--*/
+
 footer{
     clear: both;
     background-color: #c6d5c5;
@@ -101,11 +103,12 @@ footer{
     border-bottom-right-radius: 10px;
     padding: 1%;
 }
-
 footer > div{
     flex-grow: 1;
+    width: 25%;
 }
 
+/*--ANIMACIONES--*/
 @-webkit-keyframes miAnimacion1{
     from{
         transform: rotate(0deg);
@@ -121,4 +124,36 @@ footer > div{
     to{
         transform: translate(20px, -5px);
     }
+}       transform: translate(20px, -5px);
+    }
+}
+
+/*--MEDIA QUERIES--*/
+@media screen and (max-width: 900px){
+    footer > div{
+        width: 100%;
+        text-align: center;
+    }
+    #section2 > div{
+        width: 100%;
+    }
+}
+
+/*--IMAGENES PAISAJES--*/
+
+.imgPaisajes{
+    width: 33%;
+    margin: 5% auto;
+}
+
+#paisaje1{
+    
+
+}
+#paisaje2{
+    
+
+}
+#paisaje3{
+    
 }
