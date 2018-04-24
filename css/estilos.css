@@ -62,8 +62,10 @@ img{
     margin: 1%;
 }
 #imgSecundaria1:hover{
-    transform: rotate(10deg);
     border: 2px solid #82c3a6;
+    animation: miAnimacion1 1s;
+    transform: rotate(10deg);
+
 }
 
 #imgSecundaria2{
@@ -71,8 +73,9 @@ img{
     margin: 1%;
 }
 #imgSecundaria2:hover{
-    transform: translate(20px, -5px);
+    animation: miAnimacion2 1s;
     border: 2px solid #82c3a6;
+    transform: translate(20px, -5px);
 }
 
 #section1{
@@ -101,4 +104,21 @@ footer{
 
 footer > div{
     flex-grow: 1;
+}
+
+@-webkit-keyframes miAnimacion1{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(10deg);
+    }
+}
+@-webkit-keyframes miAnimacion2{
+    from{
+        transform: translate(0px, 0px);
+    }
+    to{
+        transform: translate(20px, -5px);
+    }
 }
