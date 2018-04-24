@@ -11,11 +11,19 @@ header{
     padding: 1%;
 }
 
+
+
 /*--Propiedades del Título principal--*/
 #titulo{
     text-align: left;
     color: white;
     text-shadow: 2px 2px #02010a;
+    display: inline;
+}
+
+/*--Propiedad del link visitado--*/
+:visited{
+    color: tomato;
 }
 
 li{
@@ -23,25 +31,74 @@ li{
     border-right: 1px solid #02010a;
 }    
 
+/*--Propiedades del menu se elimina el subrayado y texto color blanco--*/
 a {
     text-decoration: none;
+    color: white;
 }
 
 
 nav{
     text-align: right;
+    display: inline;
 }
 
 img{
     box-shadow: 2px 2px #02010a;
-    padding: 2%;
-    background-color: #82c3a6;
+    width: 100%;
     
-
 }
 #imgCentral{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    background-color: #82c3a6;
+    max-width: 900px;
+}
+
+
+#imgSecundaria1{
+    flex-grow: 1;
+    margin: 1%;
+}
+#imgSecundaria1:hover{
+    transform: rotate(10deg);
+    border: 2px solid #82c3a6;
+}
+
+#imgSecundaria2{
+    flex-grow: 1;
+    margin: 1%;
+}
+#imgSecundaria2:hover{
+    transform: translate(20px, -5px);
+    border: 2px solid #82c3a6;
+}
+
+#section1{
+    background-color: #82c3a6;
+}
+
+#section2{
+    background-color: #d5c75f;
+    border: 1px;
+    align-content: center;
+}
+
+.flex-c{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+footer{
+    clear: both;
+    background-color: #c6d5c5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 1%;
+}
+
+footer > div{
+    flex-grow: 1;
 }
