@@ -21,19 +21,18 @@ header{
     display: inline;
 }
 
-/*--Propiedad del link visitado--*/
-:visited{
-    color: tomato;
+/*--Menu principal--*/
+body.inicio a.inicio, body.paisaje a.paisajes, body.retrato a.retratos{
+    text-decoration: none;
+}
+a{
+    color: white;
 }
 
 li{
     display: inline;
-    border-right: 1px solid #02010a;
+    margin: 1%;
 }    
-
-/*--Propiedades del menu se elimina el subrayado y texto color blanco--*/
-a {
-}
 
 nav{
     text-align: right;
@@ -122,8 +121,6 @@ footer > div{
     to{
         transform: translate(20px, -5px);
     }
-}       transform: translate(20px, -5px);
-    }
 }
 
 /*--MEDIA QUERIES--*/
@@ -135,6 +132,19 @@ footer > div{
     #section2 > div{
         width: 100%;
     }
+    .imgPaisajes{
+        width: 100%;
+        margin: 5% auto;
+
+    }
+    header{
+        text-align: center;
+    }
+    nav{
+        text-align: center;
+        font-size: 20px;
+        display: inline;
+    }
 }
 
 /*--IMAGENES PAISAJES--*/
@@ -145,13 +155,20 @@ footer > div{
 }
 
 #paisaje1{
-    
-
+    filter: blur(10px);
 }
 #paisaje2{
-    
-
+    filter: grayscale(100%);
 }
 #paisaje3{
+    filter: sepia(90%);
+}
+#paisaje4{
+    filter: grayscale(100%);
+}
+#paisaje5{
     
+}
+#paisaje6{
+    filter: grayscale(100%);
 }
